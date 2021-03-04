@@ -1,0 +1,135 @@
+/******
+.bg{
+  background: url('../images/bg4.jpg') no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: 200%;
+}
+
+.form-container{
+  position: absolute;
+  top: 5vh;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  #box-shadow: 0px 0px 10px 0px #000;
+}
+
+#form{
+  background-color: #fff;
+  min-height: 760px;
+  padding: 5px 40px 0px 40px
+  box-shadow: 0px 0px 10px 0px #000;
+}
+
+@media only screen and (max-width: 678px) {
+  .bg{
+    background-size: 600%
+  }
+}
+
+*****/
+.wrapper{
+  background: #262626;
+  width: 510px;
+  margin: 2% auto;
+  padding: 8px 0 0 0;
+}
+
+.form-group{
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.ph-area{
+  position: absolute;
+  top: 0;
+  padding: 7px 0 0 13px;
+  transition: 200ms;
+  opacity: 0.5;
+  font-family: Merienda;
+}
+
+.btn-primary{
+    border-radius: 4px;
+    padding:10px;
+    width:49.4%;
+  }
+
+.btn-danger{
+    border-radius: 4px;
+    padding:10px;
+    width:49.4%;
+  }
+
+.form-control:focus + .ph-area,
+.form-control:valid + .ph-area{
+  font-size: 80%;
+  transform: translate3d(0, -100%, 0);
+  opacity: 1;
+  color: #fff;
+}
+
+@media (max-width: 800px) {
+  .wrapper{
+    width: 100%;
+  }
+
+}
+
+
+/*****Start Facilities Css****/
+#facilities{
+  #background-color: #dbe5e6;
+  padding: 30px;
+}
+
+#facilities h1{
+  font-weight: 900;
+  font-size: 34px;
+  padding-bottom: 5px;
+}
+
+.title{
+  text-align: center;
+  padding: 20px;
+}
+
+.title p{
+  font-size: 20px;
+}
+
+.card-body{
+  box-shadow: 0 0 20px 7px rgba(0,0,0,0.1)
+}
+
+.card{
+  margin: 15px 5px;
+}
+
+.card-body a{
+  text-decoration: none;
+  #font-size: 15px;
+  margin-top: auto;
+  #font-weight: 600;
+}
+
+.card-body a:hover{
+  #color: #63a6b0;
+  text-decoration: none;
+}
+
+.inner{
+overflow: hidden;
+}
+
+.inner img{
+transition: all 1.5s ease;
+}
+
+.inner:hover img{
+transform: scale(1.5);
+}
+
+
+/*****End Facilities Css****/
